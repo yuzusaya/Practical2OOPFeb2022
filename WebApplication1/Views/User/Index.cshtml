@@ -1,0 +1,7 @@
+﻿@using System.Net.WebSockets
+@model List<User>
+
+    @foreach (var user in Model)
+    {
+        <div>@user.Username</div>
+    }
